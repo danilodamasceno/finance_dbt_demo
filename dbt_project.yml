@@ -1,0 +1,9 @@
+name: 'finance_dbt_demo'
+version: '1.0'
+config-version: 2
+
+profile: 'finance_dbt_demo'
+
+models:
+  finance_dbt_demo:
+    +materialized: view
